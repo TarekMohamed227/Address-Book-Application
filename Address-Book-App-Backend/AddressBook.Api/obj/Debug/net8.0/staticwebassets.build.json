@@ -1,0 +1,1567 @@
+{
+  "Version": 1,
+  "Hash": "mEucu9BDzEE9GAm08xifYYXDLM+zdxv4wlCSejjmKXw=",
+  "Source": "AddressBook.Api",
+  "BasePath": "_content/AddressBook.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AddressBook.Api\\wwwroot",
+      "Source": "AddressBook.Api",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\0e8609ea-2007-4ae0-bd20-d16b8290795d.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/0e8609ea-2007-4ae0-bd20-d16b8290795d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0e8609ea-2007-4ae0-bd20-d16b8290795d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\10229158-8a72-4233-9bae-7fea5168bcf3.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/10229158-8a72-4233-9bae-7fea5168bcf3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\10229158-8a72-4233-9bae-7fea5168bcf3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\161e42bf-76c5-4814-b744-52fd0e0ded10.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/161e42bf-76c5-4814-b744-52fd0e0ded10#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\161e42bf-76c5-4814-b744-52fd0e0ded10.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\3ca5206b-a81f-4d4a-856c-48e906f4d105.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/3ca5206b-a81f-4d4a-856c-48e906f4d105#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3ca5206b-a81f-4d4a-856c-48e906f4d105.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\4eabcde4-c544-4275-bd5e-9f6f920b5c21.png",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/4eabcde4-c544-4275-bd5e-9f6f920b5c21#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ztz13fn17a",
+      "Integrity": "WWX6wa54i53MwmpX4k3HYhcVGvdKwwH2jiroUEa1Qa4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\4eabcde4-c544-4275-bd5e-9f6f920b5c21.png"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\5903a578-38ba-4a0d-b64a-c031541a609c.png",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/5903a578-38ba-4a0d-b64a-c031541a609c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "us82pqp542",
+      "Integrity": "DsrSlIYfoxRBM/HH941phZOpAlqFqkPAVI3E+xdF+L4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5903a578-38ba-4a0d-b64a-c031541a609c.png"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\5a5c0de2-aceb-4d93-9716-7b0566e96572.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/5a5c0de2-aceb-4d93-9716-7b0566e96572#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5a5c0de2-aceb-4d93-9716-7b0566e96572.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e.png",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zp5dg37nfp",
+      "Integrity": "yXX4TuGM3grSRghhC0v0ZiRMlbKyUewFPvv5XpkYCEM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e.png"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\61c88d6e-de86-4a69-8485-c3c74213fa7e.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/61c88d6e-de86-4a69-8485-c3c74213fa7e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\61c88d6e-de86-4a69-8485-c3c74213fa7e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\771efb84-c011-485d-ba39-284ab529121c.png",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/771efb84-c011-485d-ba39-284ab529121c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o4t073vixi",
+      "Integrity": "eFYwuQlAaEgyp9ldPhIe7o2ESVGUD6PbJn2enL+PwWs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\771efb84-c011-485d-ba39-284ab529121c.png"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\96df5d24-be79-4210-bc95-2cf48fe80bf9.png",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/96df5d24-be79-4210-bc95-2cf48fe80bf9#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2aili7igz6",
+      "Integrity": "NsJqHAFm93TJ+fBCrNOWp4k9pxCi52o4cyOMwQsryGM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\96df5d24-be79-4210-bc95-2cf48fe80bf9.png"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\b4802e01-4c5a-400f-aaac-ade12e5a5b3b.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/b4802e01-4c5a-400f-aaac-ade12e5a5b3b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\b4802e01-4c5a-400f-aaac-ade12e5a5b3b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\d6ba4282-1163-41a8-a548-b5f554e65ae2.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/d6ba4282-1163-41a8-a548-b5f554e65ae2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d6ba4282-1163-41a8-a548-b5f554e65ae2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\dccf0efd-cb8d-42af-951e-e293f5fa16d4.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/dccf0efd-cb8d-42af-951e-e293f5fa16d4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dccf0efd-cb8d-42af-951e-e293f5fa16d4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\eb191589-ba50-4d35-941d-d6ead76f33b0.jpg",
+      "SourceId": "AddressBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Api",
+      "RelativePath": "uploads/eb191589-ba50-4d35-941d-d6ead76f33b0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2kdqmrms5",
+      "Integrity": "1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\eb191589-ba50-4d35-941d-d6ead76f33b0.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/0e8609ea-2007-4ae0-bd20-d16b8290795d.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\0e8609ea-2007-4ae0-bd20-d16b8290795d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 16:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0e8609ea-2007-4ae0-bd20-d16b8290795d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0e8609ea-2007-4ae0-bd20-d16b8290795d.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\0e8609ea-2007-4ae0-bd20-d16b8290795d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 16:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/10229158-8a72-4233-9bae-7fea5168bcf3.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\10229158-8a72-4233-9bae-7fea5168bcf3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/10229158-8a72-4233-9bae-7fea5168bcf3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/10229158-8a72-4233-9bae-7fea5168bcf3.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\10229158-8a72-4233-9bae-7fea5168bcf3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/161e42bf-76c5-4814-b744-52fd0e0ded10.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\161e42bf-76c5-4814-b744-52fd0e0ded10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/161e42bf-76c5-4814-b744-52fd0e0ded10.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/161e42bf-76c5-4814-b744-52fd0e0ded10.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\161e42bf-76c5-4814-b744-52fd0e0ded10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3ca5206b-a81f-4d4a-856c-48e906f4d105.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\3ca5206b-a81f-4d4a-856c-48e906f4d105.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 16:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3ca5206b-a81f-4d4a-856c-48e906f4d105.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3ca5206b-a81f-4d4a-856c-48e906f4d105.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\3ca5206b-a81f-4d4a-856c-48e906f4d105.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 16:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4eabcde4-c544-4275-bd5e-9f6f920b5c21.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\4eabcde4-c544-4275-bd5e-9f6f920b5c21.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WWX6wa54i53MwmpX4k3HYhcVGvdKwwH2jiroUEa1Qa4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 20:20:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WWX6wa54i53MwmpX4k3HYhcVGvdKwwH2jiroUEa1Qa4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4eabcde4-c544-4275-bd5e-9f6f920b5c21.ztz13fn17a.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\4eabcde4-c544-4275-bd5e-9f6f920b5c21.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WWX6wa54i53MwmpX4k3HYhcVGvdKwwH2jiroUEa1Qa4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 20:20:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ztz13fn17a"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/4eabcde4-c544-4275-bd5e-9f6f920b5c21.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WWX6wa54i53MwmpX4k3HYhcVGvdKwwH2jiroUEa1Qa4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5903a578-38ba-4a0d-b64a-c031541a609c.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\5903a578-38ba-4a0d-b64a-c031541a609c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211989"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DsrSlIYfoxRBM/HH941phZOpAlqFqkPAVI3E+xdF+L4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DsrSlIYfoxRBM/HH941phZOpAlqFqkPAVI3E+xdF+L4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5903a578-38ba-4a0d-b64a-c031541a609c.us82pqp542.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\5903a578-38ba-4a0d-b64a-c031541a609c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211989"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DsrSlIYfoxRBM/HH941phZOpAlqFqkPAVI3E+xdF+L4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "us82pqp542"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5903a578-38ba-4a0d-b64a-c031541a609c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DsrSlIYfoxRBM/HH941phZOpAlqFqkPAVI3E+xdF+L4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5a5c0de2-aceb-4d93-9716-7b0566e96572.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\5a5c0de2-aceb-4d93-9716-7b0566e96572.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 10:06:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5a5c0de2-aceb-4d93-9716-7b0566e96572.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5a5c0de2-aceb-4d93-9716-7b0566e96572.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\5a5c0de2-aceb-4d93-9716-7b0566e96572.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 10:06:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yXX4TuGM3grSRghhC0v0ZiRMlbKyUewFPvv5XpkYCEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yXX4TuGM3grSRghhC0v0ZiRMlbKyUewFPvv5XpkYCEM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e.zp5dg37nfp.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yXX4TuGM3grSRghhC0v0ZiRMlbKyUewFPvv5XpkYCEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zp5dg37nfp"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yXX4TuGM3grSRghhC0v0ZiRMlbKyUewFPvv5XpkYCEM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/61c88d6e-de86-4a69-8485-c3c74213fa7e.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\61c88d6e-de86-4a69-8485-c3c74213fa7e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 10:12:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/61c88d6e-de86-4a69-8485-c3c74213fa7e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/61c88d6e-de86-4a69-8485-c3c74213fa7e.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\61c88d6e-de86-4a69-8485-c3c74213fa7e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 10:12:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/771efb84-c011-485d-ba39-284ab529121c.o4t073vixi.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\771efb84-c011-485d-ba39-284ab529121c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eFYwuQlAaEgyp9ldPhIe7o2ESVGUD6PbJn2enL+PwWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 06:05:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4t073vixi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/771efb84-c011-485d-ba39-284ab529121c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eFYwuQlAaEgyp9ldPhIe7o2ESVGUD6PbJn2enL+PwWs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/771efb84-c011-485d-ba39-284ab529121c.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\771efb84-c011-485d-ba39-284ab529121c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eFYwuQlAaEgyp9ldPhIe7o2ESVGUD6PbJn2enL+PwWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 06:05:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eFYwuQlAaEgyp9ldPhIe7o2ESVGUD6PbJn2enL+PwWs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/96df5d24-be79-4210-bc95-2cf48fe80bf9.2aili7igz6.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\96df5d24-be79-4210-bc95-2cf48fe80bf9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NsJqHAFm93TJ+fBCrNOWp4k9pxCi52o4cyOMwQsryGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:50:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2aili7igz6"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/96df5d24-be79-4210-bc95-2cf48fe80bf9.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NsJqHAFm93TJ+fBCrNOWp4k9pxCi52o4cyOMwQsryGM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/96df5d24-be79-4210-bc95-2cf48fe80bf9.png",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\96df5d24-be79-4210-bc95-2cf48fe80bf9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NsJqHAFm93TJ+fBCrNOWp4k9pxCi52o4cyOMwQsryGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:50:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NsJqHAFm93TJ+fBCrNOWp4k9pxCi52o4cyOMwQsryGM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/b4802e01-4c5a-400f-aaac-ade12e5a5b3b.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\b4802e01-4c5a-400f-aaac-ade12e5a5b3b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/b4802e01-4c5a-400f-aaac-ade12e5a5b3b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/b4802e01-4c5a-400f-aaac-ade12e5a5b3b.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\b4802e01-4c5a-400f-aaac-ade12e5a5b3b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 18:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d6ba4282-1163-41a8-a548-b5f554e65ae2.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\d6ba4282-1163-41a8-a548-b5f554e65ae2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 16:18:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d6ba4282-1163-41a8-a548-b5f554e65ae2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d6ba4282-1163-41a8-a548-b5f554e65ae2.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\d6ba4282-1163-41a8-a548-b5f554e65ae2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 16:18:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dccf0efd-cb8d-42af-951e-e293f5fa16d4.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\dccf0efd-cb8d-42af-951e-e293f5fa16d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 13:36:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dccf0efd-cb8d-42af-951e-e293f5fa16d4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dccf0efd-cb8d-42af-951e-e293f5fa16d4.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\dccf0efd-cb8d-42af-951e-e293f5fa16d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 13:36:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/eb191589-ba50-4d35-941d-d6ead76f33b0.c2kdqmrms5.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\eb191589-ba50-4d35-941d-d6ead76f33b0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 10:03:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2kdqmrms5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/eb191589-ba50-4d35-941d-d6ead76f33b0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/eb191589-ba50-4d35-941d-d6ead76f33b0.jpg",
+      "AssetFile": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\eb191589-ba50-4d35-941d-d6ead76f33b0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "526558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 10:03:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ei+s0h5LmQHOawD8vs97A74xFiMClcSyCNfwzkdZGE="
+        }
+      ]
+    }
+  ]
+}

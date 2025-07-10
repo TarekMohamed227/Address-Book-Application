@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\0e8609ea-2007-4ae0-bd20-d16b8290795d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0e8609ea-2007-4ae0-bd20-d16b8290795d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\10229158-8a72-4233-9bae-7fea5168bcf3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\10229158-8a72-4233-9bae-7fea5168bcf3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\161e42bf-76c5-4814-b744-52fd0e0ded10.jpg",
+      "PackagePath": "staticwebassets\\uploads\\161e42bf-76c5-4814-b744-52fd0e0ded10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\3ca5206b-a81f-4d4a-856c-48e906f4d105.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3ca5206b-a81f-4d4a-856c-48e906f4d105.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\4eabcde4-c544-4275-bd5e-9f6f920b5c21.png",
+      "PackagePath": "staticwebassets\\uploads\\4eabcde4-c544-4275-bd5e-9f6f920b5c21.png"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\5903a578-38ba-4a0d-b64a-c031541a609c.png",
+      "PackagePath": "staticwebassets\\uploads\\5903a578-38ba-4a0d-b64a-c031541a609c.png"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\5a5c0de2-aceb-4d93-9716-7b0566e96572.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5a5c0de2-aceb-4d93-9716-7b0566e96572.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e.png",
+      "PackagePath": "staticwebassets\\uploads\\606fafef-8b51-4cf0-9bc3-3b5a55d7fd0e.png"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\61c88d6e-de86-4a69-8485-c3c74213fa7e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\61c88d6e-de86-4a69-8485-c3c74213fa7e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\771efb84-c011-485d-ba39-284ab529121c.png",
+      "PackagePath": "staticwebassets\\uploads\\771efb84-c011-485d-ba39-284ab529121c.png"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\96df5d24-be79-4210-bc95-2cf48fe80bf9.png",
+      "PackagePath": "staticwebassets\\uploads\\96df5d24-be79-4210-bc95-2cf48fe80bf9.png"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\b4802e01-4c5a-400f-aaac-ade12e5a5b3b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b4802e01-4c5a-400f-aaac-ade12e5a5b3b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\d6ba4282-1163-41a8-a548-b5f554e65ae2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d6ba4282-1163-41a8-a548-b5f554e65ae2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\dccf0efd-cb8d-42af-951e-e293f5fa16d4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\dccf0efd-cb8d-42af-951e-e293f5fa16d4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Api\\wwwroot\\uploads\\eb191589-ba50-4d35-941d-d6ead76f33b0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\eb191589-ba50-4d35-941d-d6ead76f33b0.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AddressBook.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AddressBook.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AddressBook.Api.props",
+      "PackagePath": "build\\AddressBook.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AddressBook.Api.props",
+      "PackagePath": "buildMultiTargeting\\AddressBook.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AddressBook.Api.props",
+      "PackagePath": "buildTransitive\\AddressBook.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

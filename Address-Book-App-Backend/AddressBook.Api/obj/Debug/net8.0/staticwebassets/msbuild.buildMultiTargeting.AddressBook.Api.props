@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AddressBook.Api.props" />
+</Project>

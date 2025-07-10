@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qu2N2zI9mY0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tarek.ibrahem\\Downloads\\address-book-finallll\\address-book-app - Copy\\AddressBook.Application\\AddressBook.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarek.ibrahem\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
+    "C:\\Users\\tarek.ibrahem\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\tarek.ibrahem\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\tarek.ibrahem\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\tarek.ibrahem\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
