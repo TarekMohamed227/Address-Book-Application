@@ -1,0 +1,61 @@
+<div class="container mt-4">
+  <h2>Job Titles</h2>
+
+  <!-- Add New Job Title -->
+  <div class="mb-3">
+    <input
+      type="text"
+      placeholder="New Job Title"
+      class="form-control"
+      [(ngModel)]="newJobTitle.name"
+      [disabled]="loading"
+    />
+  </div>
+
+  <button class="btn btn-primary mb-4" (click)="createJobTitle()" [disabled]="loading">
+    {{ loading ? 'Saving...' : 'Add Job Title' }}
+  </button>
+
+  <!-- Job Titles List -->
+  <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let job of jobTitles">
+      <span class="flex-grow-1">{{ job.name }}</span>
+
+      <div>
+        <button class="btn btn-warning btn-sm me-2" (click)="openEditModal(job)" [disabled]="loading">
+          Edit
+        </button>
+        <button class="btn btn-danger btn-sm" (click)="deleteJobTitle(job.id)" [disabled]="loading">
+          Delete
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!-- Edit Modal -->
+<div *ngIf="showEditModal" class="modal d-block" tabindex="-1" style="background: rgba(0, 0, 0, 0.5);">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Job Title</h5>
+        <button type="button" class="btn-close" (click)="closeEditModal()" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input
+          type="text"
+          class="form-control"
+          [(ngModel)]="editName"
+          placeholder="Job Title Name"
+          [disabled]="loading"
+        />
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" (click)="saveUpdate()" [disabled]="loading">
+          {{ loading ? 'Updating...' : 'Save' }}
+        </button>
+        <button class="btn btn-secondary" (click)="closeEditModal()" [disabled]="loading">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>

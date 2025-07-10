@@ -1,0 +1,61 @@
+<div class="container mt-4">
+  <h2>Departments</h2>
+
+  <!-- Add New Department -->
+  <div class="mb-3">
+    <input
+      type="text"
+      placeholder="New Department Name"
+      class="form-control"
+      [(ngModel)]="newDepartment.name"
+      [disabled]="loading"
+    />
+  </div>
+
+  <button class="btn btn-primary mb-4" (click)="createDepartment()" [disabled]="loading">
+    {{ loading ? 'Saving...' : 'Add Department' }}
+  </button>
+
+  <!-- Departments List -->
+  <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let dept of departments">
+      <span class="flex-grow-1">{{ dept.Name }}</span>
+
+      <div>
+        <button class="btn btn-warning btn-sm me-2" (click)="editDepartment(dept)" [disabled]="loading">
+          Edit
+        </button>
+        <button class="btn btn-danger btn-sm" (click)="deleteDepartment(dept.Id)" [disabled]="loading">
+          Delete
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!--Department Modal -->
+<div *ngIf="showEditModal" class="modal d-block" tabindex="-1" style="background: rgba(0, 0, 0, 0.5);">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Department</h5>
+        <button type="button" class="btn-close" (click)="closeEditModal()" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input
+          type="text"
+          class="form-control"
+          [(ngModel)]="editName"
+          placeholder="Department Name"
+          [disabled]="loading"
+        />
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" (click)="saveUpdate()" [disabled]="loading">
+          {{ loading ? 'Updating...' : 'Save' }}
+        </button>
+        <button class="btn btn-secondary" (click)="closeEditModal()" [disabled]="loading">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>

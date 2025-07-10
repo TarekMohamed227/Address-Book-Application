@@ -1,0 +1,301 @@
+<div class="container mt-4">
+  <!-- TOGGLE BUTTONS -->
+  <div class="mb-4 d-flex flex-wrap gap-2">
+    <button (click)="toggleCreateForm()" class="btn btn-primary">
+      {{ showCreateForm ? 'Hide Create Form' : 'Show Create Form' }}
+    </button>
+    <button (click)="toggleSearchForm()" class="btn btn-secondary">
+      {{ showSearchForm ? 'Hide Search Form' : 'Show Search Form' }}
+    </button>
+    <button class="btn btn-success" (click)="exportToExcel()">Export to Excel</button>
+  </div>
+
+  <!-- CREATE ENTRY FORM -->
+  <div *ngIf="showCreateForm">
+    <h2>Create Address Book Entry</h2>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="mb-5">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label>Full Name</label>
+          <input class="form-control" formControlName="fullName" />
+          <div *ngIf="form.get('fullName')?.touched && form.get('fullName')?.invalid">
+            <small class="text-danger" *ngIf="form.get('fullName')?.hasError('required')">Full Name is required.</small>
+            <small class="text-danger" *ngIf="form.get('fullName')?.hasError('maxlength')">Full Name cannot exceed 200
+              characters.</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label>Email</label>
+          <input type="email" class="form-control" formControlName="email" />
+          <div *ngIf="form.get('email')?.touched && form.get('email')?.invalid">
+            <small class="text-danger" *ngIf="form.get('email')?.hasError('required')">Email is required.</small>
+            <small class="text-danger" *ngIf="form.get('email')?.hasError('email')">Please enter a valid email
+              address.</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label>Password</label>
+          <input type="password" class="form-control" formControlName="password" />
+          <div *ngIf="form.get('password')?.touched && form.get('password')?.invalid">
+            <small class="text-danger" *ngIf="form.get('password')?.hasError('required')">Password is required.</small>
+            <small class="text-danger" *ngIf="form.get('password')?.hasError('minlength')">Password must be at least 6
+              characters.</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label>Mobile Number</label>
+          <input class="form-control" formControlName="mobileNumber" />
+          <div *ngIf="form.get('mobileNumber')?.touched && form.get('mobileNumber')?.invalid">
+            <small class="text-danger" *ngIf="form.get('mobileNumber')?.hasError('required')">Mobile Number is
+              required.</small>
+            <small class="text-danger" *ngIf="form.get('mobileNumber')?.hasError('pattern')">Please enter a valid mobile
+              number.</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label>Date of Birth</label>
+          <input type="date" class="form-control" formControlName="dateOfBirth" />
+          <div *ngIf="form.get('dateOfBirth')?.touched && form.get('dateOfBirth')?.invalid">
+            <small class="text-danger">Date of Birth is required.</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label>Address</label>
+          <textarea class="form-control" formControlName="address"></textarea>
+        </div>
+
+        <div class="col-md-6">
+          <label>Department</label>
+          <select class="form-select" formControlName="departmentId">
+  <option value="" hidden>Select Department</option>
+  <option *ngFor="let dept of departments" [value]="dept.Id">{{ dept.Name }}</option>
+</select>
+
+
+          <div *ngIf="form.get('departmentId')?.touched && form.get('departmentId')?.invalid">
+            <small class="text-danger">Department is required.</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label>Job Title</label>
+          <select class="form-select" formControlName="jobTitleId">
+  <option value="" hidden>Select Job Title</option>
+  <option *ngFor="let job of jobTitles" [value]="job.id">{{ job.name }}</option>
+</select>
+
+          <div *ngIf="form.get('jobTitleId')?.touched && form.get('jobTitleId')?.invalid">
+            <small class="text-danger">Job Title is required.</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label>Photo</label>
+          <input type="file" class="form-control" (change)="onFileSelected($event)" />
+        </div>
+
+        <div class="col-md-6 align-self-end">
+          <button type="submit" class="btn btn-primary w-100" [disabled]="loading">
+            {{ loading ? 'Saving...' : 'Save Entry' }}
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <hr class="my-5" />
+
+  <!-- SEARCH FORM -->
+  <div *ngIf="showSearchForm">
+    <h2>Search Entries</h2>
+    <form [formGroup]="searchForm" (ngSubmit)="onSearch()" class="mb-4">
+      <div class="row g-3">
+        <div class="col-md-3">
+          <input class="form-control" placeholder="Full Name" formControlName="fullName" />
+        </div>
+        <div class="col-md-3">
+          <input class="form-control" placeholder="Email" formControlName="email" />
+        </div>
+        <div class="col-md-3">
+          <select class="form-select" formControlName="departmentId">
+            <option value="">Select Department</option>
+            <option *ngFor="let dept of departments" [value]="dept.Id">{{ dept.Name }}</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <select class="form-select" formControlName="jobTitleId">
+            <option value="">Select Job Title</option>
+            <option *ngFor="let job of jobTitles" [value]="job.id">{{ job.name }}</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <input class="form-control" placeholder="Mobile Number" formControlName="mobileNumber" />
+        </div>
+        <div class="col-md-3">
+          <label>Date From</label>
+          <input type="date" class="form-control" formControlName="dateOfBirthFrom" />
+        </div>
+        <div class="col-md-3">
+          <label>Date To</label>
+          <input type="date" class="form-control" formControlName="dateOfBirthTo" />
+        </div>
+        <div class="col-md-3 align-self-end">
+          <button type="submit" class="btn btn-success w-100">Search</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- ADDRESS BOOK ENTRIES TABLE -->
+  <h2>Address Book Entries</h2>
+  <table class="table table-bordered table-striped mt-3">
+    <thead>
+      <tr>
+        <th>Photo</th>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Mobile Number</th>
+        <th>Date of Birth</th>
+        <th>Department</th>
+        <th>Job Title</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let entry of entries">
+        <td>
+          <img *ngIf="entry.PhotoUrl" [src]="'http://localhost:5018' + entry.PhotoUrl" width="50" height="50" />
+        </td>
+        <td>{{ entry.FullName }}</td>
+        <td>{{ entry.Email }}</td>
+        <td>{{ entry.Address }}</td>
+        <td>{{ entry.MobileNumber }}</td>
+        <td>{{ entry.DateOfBirth | date: 'yyyy-MM-dd' }}</td>
+        <td>{{ entry.Department?.Name }}</td>
+        <td>{{ entry.JobTitle?.Name }}</td>
+        <td>
+          <button class="btn btn-sm btn-warning me-2" (click)="onEdit(entry)">Edit</button>
+          <button class="btn btn-sm btn-danger" *ngIf="entry.Id != null" (click)="onDelete(entry.Id!)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Edit Modal -->
+<div *ngIf="showModal" class="modal d-block" tabindex="-1" style="background: rgba(0, 0, 0, 0.5);">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Address Book Entry</h5>
+        <button type="button" class="btn-close" (click)="closeModal()"></button>
+      </div>
+
+      <form [formGroup]="editForm" (ngSubmit)="onUpdate()">
+        <div class="modal-body">
+          <div class="row g-3">
+            <!-- Full Name -->
+            <div class="col-md-6">
+              <label>Full Name</label>
+              <input class="form-control" formControlName="fullName" />
+              <div *ngIf="editForm.get('fullName')?.touched && editForm.get('fullName')?.invalid">
+                <small class="text-danger" *ngIf="editForm.get('fullName')?.hasError('required')">
+                  Full Name is required.
+                </small>
+                <small class="text-danger" *ngIf="editForm.get('fullName')?.hasError('minlength')">
+                  Full Name must be at least 3 characters.
+                </small>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-6">
+              <label>Email</label>
+              <input class="form-control" formControlName="email" />
+              <div *ngIf="editForm.get('email')?.touched && editForm.get('email')?.invalid">
+                <small class="text-danger" *ngIf="editForm.get('email')?.hasError('required')">
+                  Email is required.
+                </small>
+                <small class="text-danger" *ngIf="editForm.get('email')?.hasError('email')">
+                  Invalid email format.
+                </small>
+              </div>
+            </div>
+
+            <!-- Mobile Number -->
+            <div class="col-md-6">
+              <label>Mobile Number</label>
+              <input class="form-control" formControlName="mobileNumber" />
+              <div *ngIf="editForm.get('mobileNumber')?.touched && editForm.get('mobileNumber')?.invalid">
+                <small class="text-danger" *ngIf="editForm.get('mobileNumber')?.hasError('required')">
+                  Mobile number is required.
+                </small>
+                <small class="text-danger" *ngIf="editForm.get('mobileNumber')?.hasError('pattern')">
+                  Must be exactly 11 digits (numbers only).
+                </small>
+              </div>
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="col-md-6">
+              <label>Date of Birth</label>
+              <input type="date" class="form-control" formControlName="dateOfBirth" />
+              <div *ngIf="editForm.get('dateOfBirth')?.touched && editForm.get('dateOfBirth')?.invalid">
+                <small class="text-danger">Date of Birth is required.</small>
+              </div>
+            </div>
+
+            <!-- Address -->
+            <div class="col-md-6">
+              <label>Address</label>
+              <input class="form-control" formControlName="address" />
+            </div>
+
+            <!-- Department -->
+            <div class="col-md-6">
+              <label>Department</label>
+              <select class="form-select" formControlName="departmentId">
+                <option value="" hidden>Select Department</option>
+                <option *ngFor="let dept of departments" [value]="dept.Id">{{ dept.Name }}</option>
+              </select>
+              <div *ngIf="editForm.get('departmentId')?.touched && editForm.get('departmentId')?.invalid">
+                <small class="text-danger">Department is required.</small>
+              </div>
+            </div>
+
+            <!-- Job Title -->
+            <div class="col-md-6">
+              <label>Job Title</label>
+              <select class="form-select" formControlName="jobTitleId">
+                <option value="" hidden>Select Job Title</option>
+                <option *ngFor="let job of jobTitles" [value]="job.id">{{ job.name }}</option>
+              </select>
+              <div *ngIf="editForm.get('jobTitleId')?.touched && editForm.get('jobTitleId')?.invalid">
+                <small class="text-danger">Job Title is required.</small>
+              </div>
+            </div>
+
+            <!-- Photo -->
+            <div class="col-md-6">
+              <label>Change Photo</label>
+              <input type="file" class="form-control" (change)="onFileSelected($event)" />
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary" [disabled]="loading">
+            {{ loading ? 'Updating...' : 'Update' }}
+          </button>
+          <button type="button" class="btn btn-secondary" (click)="closeModal()">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
